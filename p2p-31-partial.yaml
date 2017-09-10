@@ -1,0 +1,13 @@
+---
+graph: # Graph specification
+  nfrag: 4
+  type: immutable_edgecut
+  etype: double
+  vtype: double
+  load_strategy: onlyout
+  file_format: evrfiles
+  rfile: $GRAPE_TEST/p2p-31.r4
+  efile: $GRAPE_TEST/p2p-31.e
+  vfile: $GRAPE_TEST/p2p-31.v
+  serialization_prefix: ./p2p-31_serialization
+  partial_read: true
