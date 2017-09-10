@@ -1,0 +1,28 @@
+---
+app: # Application specification
+  param:
+    - string
+  name: wcc
+  so_location: $GRAPE_LIB/libapp_wcc.so
+
+  # compatible graph spec:
+  graph_etype:
+    - double
+    - float
+  graph_vtype:
+    - double
+    - float
+  graph_type:
+    - immutable_edgecut
+    # - mutable
+
+  message_strategy: sync_on_out_vertex
+  message_type: pair
+  result_prefix: .
+
+  enable_coordinator_aggregation: false
+  enable_assemble: false
+  enable_result_output: true
+  enable_auto: false
+
+  query_type: string

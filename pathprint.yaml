@@ -1,0 +1,28 @@
+---
+app: # Application specification
+  param:
+    - string
+    - string
+  name: pathprint
+  so_location: $GRAPE_LIB/libapp_pathprint.so
+
+  # compatible graph spec:
+  graph_etype:
+    - int
+  graph_vtype:
+    - int64
+  graph_type:
+    - immutable_edgecut
+    # - mutable
+
+  message_strategy: sync_on_out_vertex
+  message_type: pair
+  enable_coordinator_msg_process: true
+  result_prefix: .
+
+  enable_coordinator_aggregation: false
+  enable_assemble: false
+  enable_result_output: true
+  enable_auto: false
+
+  query_type: string

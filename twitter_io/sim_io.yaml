@@ -1,0 +1,27 @@
+---
+app: # Application specification
+  # checkout parameter
+  param:
+    - string
+  name: sim_io
+  so_location: $GRAPE_LIB/libapp_sim_io.so
+
+  # compatible graph spec:
+  graph_etype:
+    - int
+  graph_vtype:
+    - int
+  graph_type:
+    - insertonly_edgecut
+    # - mutable
+
+  message_strategy: edge_in
+  message_type: pair
+  result_prefix: .
+
+  enable_coordinator_aggregation: false
+  enable_assemble: false
+  enable_result_output: true
+  enable_auto: false
+
+  query_type: string

@@ -1,0 +1,13 @@
+---
+graph: # Graph specification
+  nfrag: 4
+  type: immutable_edgecut
+  etype: int
+  vtype: int64
+  load_strategy: bothOutIn
+  file_format: evrfiles
+  rfile: $GRAPE_TEST/twitter-lkl.r
+  efile: $GRAPE_TEST/twitter-lkl.e
+  vfile: $GRAPE_TEST/twitter-lkl.v
+  serialization_prefix: ./twitter_serialization
+  line_parser_so_file_location: $GRAPE_LIB/liblkl_line_parser.so

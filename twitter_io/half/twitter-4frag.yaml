@@ -1,0 +1,12 @@
+---
+graph: # Graph specification
+  nfrag: 4
+  type: insertonly_edgecut
+  etype: double
+  vtype: double
+  load_strategy: onlyout
+  file_format: evrfiles
+  rfile: $GRAPE_TEST/twitter.r
+  efile: $GRAPE_TEST/twitter_io/half/twitter.e
+  vfile: $GRAPE_TEST/twitter_io/half/twitter.v
+  serialization_prefix: ./twitter_serialization
