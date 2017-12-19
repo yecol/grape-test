@@ -1,0 +1,8 @@
+{"graph":{
+ "nfrag": 4,
+ "graph_type": "immutable_edgecut",
+ "file_format": "evrfiles",
+ "efile":"/home/yecol/git-repo/dataset/twitter.e",
+"rfile":"/home/yecol/git-repo/dataset/twitter.r",
+"vfile":"/home/yecol/git-repo/dataset/twitter.v"
+}}
