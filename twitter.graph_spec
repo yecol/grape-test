@@ -5,9 +5,9 @@
 		"vtype": "double",
 		"etype": "double",
 		"file_format": "evrfiles",
-		"efile": "./grape-test/twitter.e",
-		"rfile": "./grape-test/twitter.r",
-		"vfile": "./grape-test/twitter.v",
-		"serialization_prefix": "./twitter_serialization"
+		"efile": "file://./grape-test/twitter.e",
+		"rfile": "file://./grape-test/twitter.r",
+		"vfile": "file://./grape-test/twitter.v",
+		"serialization_prefix": "file://./twitter_serialization"
 	}
 }
