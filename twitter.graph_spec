@@ -1,8 +1,13 @@
-{"graph":{
- "nfrag": 4,
- "graph_type": "immutable_edgecut",
- "file_format": "evrfiles",
- "efile":"/home/yecol/git-repo/dataset/twitter.e",
-"rfile":"/home/yecol/git-repo/dataset/twitter.r",
-"vfile":"/home/yecol/git-repo/dataset/twitter.v"
-}}
+{
+	"graph": {
+		"nfrag": 4,
+		"graph_type": "immutable_edgecut",
+		"vtype": "double",
+		"etype": "double",
+		"file_format": "evrfiles",
+		"efile": "./grape-test/twitter.e",
+		"rfile": "./grape-test/twitter.r",
+		"vfile": "./grape-test/twitter.v",
+		"serialization_prefix": "./twitter_serialization"
+	}
+}
