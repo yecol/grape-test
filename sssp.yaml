@@ -11,7 +11,7 @@ app: # Application specification
     - double
     - float
   graph_type: 
-    - out
+    - immutable_edgecut
     # - mutable
   
   message_strategy: sync_on_out_vertex
