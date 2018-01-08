@@ -4,6 +4,7 @@ graph: # Graph specification
   type: immutable_edgecut
   etype: double
   vtype: double
+  load_strategy: onlyout
   file_format: evrfiles
   rfile: ./grape-test/twitter.r
   efile: ./grape-test/twitter.e
