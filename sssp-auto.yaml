@@ -1,7 +1,7 @@
 --- 
 app: # Application specification
-  name: sssp
-  so_location: ./libsssp.so
+  name: sssp_auto
+  so_location: ./libsssp_auto.so
   
   # compatible graph spec:
   graph_etype: 
