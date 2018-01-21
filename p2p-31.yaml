@@ -1,0 +1,12 @@
+--- 
+graph: # Graph specification
+  nfrag: 4
+  type: immutable_edgecut
+  etype: double
+  vtype: double
+  load_strategy: onlyout
+  file_format: evrfiles
+  rfile: ./grape-test/p2p-31.r4
+  efile: ./grape-test/p2p-31.e
+  vfile: ./grape-test/p2p-31.v
+  serilization_prefix: ./p2p-31_serialization
