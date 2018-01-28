@@ -9,4 +9,4 @@ graph: # Graph specification
   rfile: ./grape-test/twitter.r
   efile: ./grape-test/twitter.e
   vfile: ./grape-test/twitter.v
-  serilization_prefix: ./twitter_serialization
+  serialization_prefix: ./twitter_serialization

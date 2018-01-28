@@ -9,4 +9,4 @@ graph: # Graph specification
   rfile: ./grape-test/p2p-31.r4
   efile: ./grape-test/p2p-31.e
   vfile: ./grape-test/p2p-31.v
-  serilization_prefix: ./p2p-31_serialization
+  serialization_prefix: ./p2p-31_serialization
