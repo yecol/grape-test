@@ -1,5 +1,8 @@
 ---
 app: # Application specification
+  param:
+    - string
+    - string
   name: bfs
   so_location: ./libapp_bfs.so
 
