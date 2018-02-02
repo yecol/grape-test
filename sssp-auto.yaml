@@ -1,5 +1,7 @@
 ---
 app: # Application specification
+  param:
+    - string
   name: sssp_auto
   so_location: ./libapp_sssp_auto.so
 

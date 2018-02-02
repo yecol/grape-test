@@ -1,5 +1,6 @@
 ---
 app: # Application specification
+  param:
   name: wcc
   so_location: ./libapp_wcc.so
 
