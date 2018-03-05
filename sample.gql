@@ -2,8 +2,6 @@
 twitter = loadgraph("grape-test/twitter.yaml")
 sssp = loadapp("grape-test/sample-sssp.yaml")
 
-sssp.config("enable_result_output", true)
-
 # Input query
 sssp.query(4)
 
