@@ -27,5 +27,6 @@ app: # Application specification
   enable_coordinator_aggregation: false
   enable_assemble: false
   enable_result_output: true
+  enable_auto: false
 
   query_type: string
