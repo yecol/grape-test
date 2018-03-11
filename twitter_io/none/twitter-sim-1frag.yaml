@@ -1,0 +1,12 @@
+--- 
+graph: # Graph specification
+  nfrag: 1
+  type: insertonly_edgecut
+  etype: int
+  vtype: int
+  load_strategy: bothOutIn
+  file_format: evrfiles
+  rfile: ./grape-test/twitter_io/none/twitter.r
+  efile: ./grape-test/twitter_io/none/twitter.e
+  vfile: ./grape-test/twitter_io/none/twitter.v
+  serialization_prefix: ./twitter_serialization
