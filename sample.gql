@@ -3,7 +3,7 @@ twitter = loadgraph("grape-test/twitter.yaml")
 sssp = loadapp("grape-test/sample-sssp.yaml")
 
 # Input query
-sssp.query(4)
+sssp.query(4, "sssp_4")
 
 # Unload app & graph
 unloadapp(sssp)
