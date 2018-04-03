@@ -7,7 +7,7 @@ app: # Application specification
     - string
     - string
   name: pagerank
-  so_location: ./libapp_pagerank.so
+  so_location: $GRAPE_LIB/libapp_pagerank.so
 
   # compatible graph spec:
   graph_etype:

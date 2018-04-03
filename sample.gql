@@ -1,6 +1,6 @@
 # Load graph & app
-twitter = loadgraph("grape-test/twitter.yaml")
-sssp = loadapp("grape-test/sample-sssp.yaml")
+twitter = loadgraph("$GRAPE_TEST/twitter.yaml")
+sssp = loadapp("$GRAPE_TEST/sample-sssp.yaml")
 
 # Input query
 sssp.query(4, "sssp_4")

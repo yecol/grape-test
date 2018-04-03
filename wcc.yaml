@@ -3,7 +3,7 @@ app: # Application specification
   param:
     - string
   name: wcc
-  so_location: ./libapp_wcc.so
+  so_location: $GRAPE_LIB/libapp_wcc.so
 
   # compatible graph spec:
   graph_etype:

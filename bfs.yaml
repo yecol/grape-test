@@ -4,7 +4,7 @@ app: # Application specification
     - string
     - string
   name: bfs
-  so_location: ./libapp_bfs.so
+  so_location: $GRAPE_LIB/libapp_bfs.so
 
   # compatible graph spec:
   graph_etype:
