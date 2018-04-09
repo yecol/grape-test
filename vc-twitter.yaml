@@ -7,6 +7,6 @@ graph: # Graph specification
   load_strategy: onlyout
   file_format: verfiles
   rfile: ./grape-test/twitter.r
-  efile: ./twitter.ve
+  efile: ./grape-test/twitter.ve
   vfile: ./grape-test/twitter.v
   serialization_prefix: ./twitter_serialization
