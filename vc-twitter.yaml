@@ -1,0 +1,12 @@
+--- 
+graph: # Graph specification
+  nfrag: 4
+  type: immutable_vertexcut
+  etype: double
+  vtype: double
+  load_strategy: onlyout
+  file_format: verfiles
+  rfile: ./grape-test/twitter.r
+  efile: ./twitter.ve
+  vfile: ./grape-test/twitter.v
+  serialization_prefix: ./twitter_serialization
