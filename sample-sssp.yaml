@@ -4,7 +4,7 @@ app: # Application specification
   param:
     - string
   name: sssp
-  so_location: /opt/7bridges/app/libapp_sssp.so
+  so_location: $GRAPE_LIB/libapp_sssp.so
 
   # compatible graph spec:
   graph_etype:

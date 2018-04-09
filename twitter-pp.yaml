@@ -1,4 +1,4 @@
---- 
+---
 graph: # Graph specification
   nfrag: 4
   type: immutable_edgecut
@@ -6,8 +6,8 @@ graph: # Graph specification
   vtype: int64
   load_strategy: bothOutIn
   file_format: evrfiles
-  rfile: ./grape-test/twitter-lkl.r
-  efile: ./grape-test/twitter-lkl.e
-  vfile: ./grape-test/twitter-lkl.v
+  rfile: $GRAPE_TEST/twitter-lkl.r
+  efile: $GRAPE_TEST/twitter-lkl.e
+  vfile: $GRAPE_TEST/twitter-lkl.v
   serialization_prefix: ./twitter_serialization
-  line_parser_so_file_location: ./liblkl_line_parser.so
+  line_parser_so_file_location: $GRAPE_LIB/liblkl_line_parser.so

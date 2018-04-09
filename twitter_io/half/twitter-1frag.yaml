@@ -1,4 +1,4 @@
---- 
+---
 graph: # Graph specification
   nfrag: 1
   type: insertonly_edgecut
@@ -6,7 +6,7 @@ graph: # Graph specification
   vtype: double
   load_strategy: onlyout
   file_format: evrfiles
-  rfile: ./grape-test/twitter_io/twitter.r1
-  efile: ./grape-test/twitter_io/half/twitter.e
-  vfile: ./grape-test/twitter_io/half/twitter.v
+  rfile: $GRAPE_TEST/twitter_io/twitter.r1
+  efile: $GRAPE_TEST/twitter_io/half/twitter.e
+  vfile: $GRAPE_TEST/twitter_io/half/twitter.v
   serialization_prefix: ./twitter_serialization

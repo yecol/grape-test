@@ -4,7 +4,7 @@ app: # Application specification
   param:
     - string
   name: vf2
-  so_location: ./libapp_vf2.so
+  so_location: $GRAPE_LIB/libapp_vf2.so
 
   # compatible graph spec:
   graph_etype:
