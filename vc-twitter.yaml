@@ -4,8 +4,8 @@ graph: # Graph specification
   type: immutable_vertexcut
   etype: double
   vtype: double
-  load_strategy: onlyout
-  file_format: verfiles
+  load_strategy: DBH
+  file_format: dadjrfiles
   rfile: ./grape-test/twitter.r
   efile: ./grape-test/twitter.ve
   vfile: ./grape-test/twitter.v

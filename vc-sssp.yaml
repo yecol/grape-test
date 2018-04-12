@@ -4,7 +4,7 @@ app: # Application specification
   param:
     - string
   name: sssp
-  so_location: ./libapp_vc-sssp.so
+  so_location: ./libapp_vc_sssp.so
 
   # compatible graph spec:
   graph_etype:
@@ -18,7 +18,7 @@ app: # Application specification
     # - mutable
 
   
-  message_strategy: sync_on_out_vertex
+  message_strategy: master_gather_aggregate_scatter
   message_type: pair
   result_prefix: .
 
