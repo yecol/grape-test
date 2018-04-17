@@ -3,7 +3,7 @@ graph: # Graph specification
   nfrag: 4
   type: immutable_edgecut
   etype: double
-  vtype: double
+  vtype: int
   load_strategy: onlyout
   file_format: evrfiles
   rfile: $GRAPE_TEST/twitter.r
