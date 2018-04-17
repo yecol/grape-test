@@ -12,6 +12,7 @@ app: # Application specification
   graph_vtype:
     - double
     - float
+    - int
   graph_type:
     - immutable_edgecut
     # - mutable
