@@ -4,7 +4,7 @@ app: # Application specification
   param:
     - string
   name: sssp
-  so_location: ./libapp_vc_sssp.so
+  so_location: $GRAPE_LIB/libapp_vc_sssp.so
 
   # compatible graph spec:
   graph_etype:
@@ -17,7 +17,7 @@ app: # Application specification
     - immutable_vertexcut
     # - mutable
 
-  
+
   message_strategy: master_gather_aggregate_scatter
   message_type: pair
   result_prefix: .

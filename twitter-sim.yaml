@@ -2,7 +2,7 @@
 graph: # Graph specification
   nfrag: 4
   type: immutable_edgecut
-  etype: int
+  etype: double
   vtype: int
   load_strategy: bothOutIn
   file_format: evrfiles

@@ -9,6 +9,7 @@ app: # Application specification
   # compatible graph spec:
   graph_etype:
     - int
+    - double
   graph_vtype:
     - int
   graph_type:

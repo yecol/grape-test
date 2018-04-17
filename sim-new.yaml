@@ -4,7 +4,7 @@ app: # Application specification
   param:
     - string
   name: sim
-  so_location: ./libapp_sim.so
+  so_location: $GRAPE_LIB/libapp_sim.so
 
   # compatible graph spec:
   graph_etype:
