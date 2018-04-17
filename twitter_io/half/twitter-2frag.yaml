@@ -5,6 +5,7 @@ graph: # Graph specification
   etype: double
   vtype: double
   load_strategy: onlyout
+  partition_strategy: prepartitioned
   file_format: evrfiles
   rfile: $GRAPE_TEST/twitter_io/twitter.r2
   efile: $GRAPE_TEST/twitter_io/half/twitter.e
