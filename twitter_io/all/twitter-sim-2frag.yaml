@@ -5,6 +5,7 @@ graph: # Graph specification
   etype: int
   vtype: int
   load_strategy: bothOutIn
+  partition_strategy: prepartitioned
   file_format: evrfiles
   rfile: $GRAPE_TEST/twitter_io/twitter.r2
   efile: $GRAPE_TEST/twitter.e

@@ -4,7 +4,8 @@ graph: # Graph specification
   type: immutable_vertexcut
   etype: double
   vtype: double
-  load_strategy: DBH
+  load_strategy: MasterMirror
+  partition_strategy: dbh
   file_format: dadjrfiles
   rfile: ./grape-test/twitter.r
   efile: ./grape-test/twitter.ve
