@@ -4,7 +4,7 @@ graph: # Graph specification
   type: immutable_edgecut
   etype: double
   vtype: int
-  load_strategy: onlyout
+  load_strategy: bothOutIn
   file_format: evrfiles
   rfile: $GRAPE_TEST/twitter.r
   efile: $GRAPE_TEST/twitter.e
