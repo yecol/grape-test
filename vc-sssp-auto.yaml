@@ -1,0 +1,30 @@
+
+---
+app: # Application specification
+  param:
+    - string
+  name: vc_sssp_auto
+  so_location: $GRAPE_LIB/libapp_vc_sssp_auto.so
+
+  # compatible graph spec:
+  graph_etype:
+    - double
+    - float
+  graph_vtype:
+    - double
+    - float
+    - int
+  graph_type:
+    - immutable_vertexcut
+    # - mutable
+
+  message_strategy: master_gather_aggregate_scatter
+  message_type: pair
+  result_prefix: .
+
+  enable_coordinator_aggregation: false
+  enable_assemble: false
+  enable_result_output: true
+  enable_auto: true
+
+  query_type: string
