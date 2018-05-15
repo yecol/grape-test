@@ -1,0 +1,15 @@
+---
+graph: # Graph specification
+  nfrag: 4
+  type: kv_edgecut
+  etype: double
+  vtype: int
+  load_strategy: bothOutIn
+  partition_strategy: prepartitioned
+  file_format: kvfiles
+  kvdb: leveldb://.
+  rfile: $GRAPE_TEST/twitter.r
+  efile: $GRAPE_TEST/twitter-js.e
+  vfile: $GRAPE_TEST/twitter-js.v
+  serialization_prefix: ./twitter_serialization
+  line_parser_so_file_location: ./libjs_kv_parser.so
