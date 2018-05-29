@@ -1,0 +1,32 @@
+---
+app: # Application specification
+  param:
+    - string
+  name: java_sssp_auto
+  so_location: $GRAPE_LIB/libapp_java_app_auto.so
+  classpath: $GRAPE_LIB/grape-java-0.01.jar
+  mainclass: io/example/sssp/sssp_auto
+
+  # compatible graph spec:
+  graph_etype:
+    - double
+    - float
+  graph_vtype:
+    - double
+    - float
+    - int
+  graph_type:
+    - immutable_edgecut
+    # - mutable
+
+  message_strategy: sync_on_out_vertex
+  message_type: pair
+  result_prefix: .
+
+  enable_java_app: true
+  enable_coordinator_aggregation: false
+  enable_assemble: false
+  enable_result_output: true
+  enable_auto: true
+
+  query_type: string
