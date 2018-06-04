@@ -23,7 +23,7 @@ app: # Application specification
   message_type: pair
   result_prefix: .
 
-  enable_java_app: true
+  is_java_app: true
   enable_coordinator_aggregation: false
   enable_assemble: false
   enable_result_output: true
