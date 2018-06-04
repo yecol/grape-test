@@ -3,7 +3,7 @@ app: # Application specification
   param:
     - string
   name: java_sssp_auto
-  so_location: $GRAPE_LIB/libapp_java_app_auto.so
+  so_location: $GRAPE_LIB/libapp_java_driver.so
   classpath: $GRAPE_LIB/grape-java-0.01.jar
   mainclass: io/example/sssp/sssp_auto
 
