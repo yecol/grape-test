@@ -1,0 +1,7 @@
+twitter = loadgraph("./twitter-sim.yaml")
+sim = loadapp("./grape-test/sim.yaml")
+sim.query(Graph("./grape-test/sim-query.graph"), "im")
+unloadapp(sim)
+unloadgraph(twitter)
+exit
+

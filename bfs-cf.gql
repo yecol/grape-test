@@ -1,0 +1,7 @@
+com-friendster = loadgraph("./com-friendster.yaml")
+bfs = loadapp("./grape-test/bfs.yaml")
+bfs.config("result_prefix", ".")
+bfs.query(1 4, "im")
+unloadapp(bfs)
+unloadgraph(com-friendster)
+exit
