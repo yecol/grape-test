@@ -1,0 +1,5 @@
+com-friendster = loadgraph("./com-friendster.yaml")
+wcc = loadapp("./grape-test/wcc.yaml")
+wcc.query(5506215, "im")
+unloadapp(wcc)
+unloadgraph(com-friendster)

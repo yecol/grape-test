@@ -1,0 +1,7 @@
+twitter = loadgraph("$GRAPE_TEST/twitter.yaml")
+bfs = loadapp("$GRAPE_TEST/bfs.yaml")
+bfs.config("result_prefix", ".")
+bfs.query(1 4, "im")
+unloadapp(bfs)
+unloadgraph(twitter)
+exit

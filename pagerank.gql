@@ -1,0 +1,8 @@
+twitter-pr = loadgraph("$GRAPE_TEST/twitter-pagerank.yaml")
+pr = loadapp("$GRAPE_TEST/pagerank.yaml")
+pr.query(0.8 0.01 100 0, "im")
+unloadapp(pr)
+unloadgraph(twitter-pr)
+
+exit
+
