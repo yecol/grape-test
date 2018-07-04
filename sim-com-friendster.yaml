@@ -4,7 +4,7 @@ graph: # Graph specification
   type: immutable_edgecut
   etype: double
   vtype: double
-  load_strategy: bothOutIn
+  load_strategy: both_out_in
   file_format: evrfiles
   rfile: /BIGDATA1/buaa_wffan_1/grape-data/com-friendster/evr/com-friendster.part64
   efile: /BIGDATA1/buaa_wffan_1/grape-data/com-friendster/evr/com-friendster.e
