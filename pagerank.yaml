@@ -19,6 +19,8 @@ app: # Application specification
   graph_type:
     - immutable_edgecut
     # - mutable
+  graph_load_strategy:
+    - only_out
 
   message_strategy: sync_on_out_vertex
   message_type: pair
