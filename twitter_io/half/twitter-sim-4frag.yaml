@@ -4,7 +4,7 @@ graph: # Graph specification
   type: insertonly_edgecut
   etype: int
   vtype: int
-  load_strategy: bothOutIn
+  load_strategy: both_out_in
   partition_strategy: prepartitioned
   file_format: evrfiles
   rfile: $GRAPE_TEST/twitter.r

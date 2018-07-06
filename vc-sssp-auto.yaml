@@ -17,6 +17,8 @@ app: # Application specification
   graph_type:
     - immutable_vertexcut
     # - mutable
+  graph_load_strategy:
+    - master_mirror
 
   message_strategy: master_gather_aggregate_scatter
   message_type: pair
