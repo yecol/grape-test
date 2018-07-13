@@ -1,12 +1,11 @@
 ---
 app: # Application specification
-  # checkout parameter
   param:
     - string
-  name: sssp-auto
+  name: wcc
   so_location: $GRAPE_LIB/libapp_java_driver.so
   classpath: $GRAPE_LIB/grape-java-0.01.jar
-  mainclass: io/example/sssp/sssp_auto
+  mainclass: io/example/wcc/wcc
 
   # compatible graph spec:
   graph_etype:
@@ -15,13 +14,11 @@ app: # Application specification
   graph_vtype:
     - double
     - float
-    - int
   graph_type:
     - immutable_edgecut
     # - mutable
   graph_load_strategy:
     - both_out_in
-    - only_out
 
   message_strategy: sync_on_out_vertex
   message_type: pair
@@ -31,6 +28,6 @@ app: # Application specification
   enable_coordinator_aggregation: false
   enable_assemble: false
   enable_result_output: true
-  enable_auto: true
+  enable_auto: false
 
   query_type: string
