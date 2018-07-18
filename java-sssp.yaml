@@ -6,7 +6,7 @@ app: # Application specification
   name: sssp
   so_location: $GRAPE_LIB/libapp_java_driver.so
   classpath: $GRAPE_LIB/grape-java-0.1.jar
-  mainclass: io/sevenbridges/grape/example/sssp/sssp
+  mainclass: io/sevenbridges/grape/example/sssp/SSSP
 
   # compatible graph spec:
   graph_etype:
