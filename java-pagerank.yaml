@@ -9,7 +9,7 @@ app: # Application specification
   name: pagerank
   so_location: $GRAPE_LIB/libapp_java_driver.so
   classpath: $GRAPE_LIB/grape-java-0.1.jar
-  mainclass: io/sevenbridges/grape/example/pagerank/pagerank
+  mainclass: io/sevenbridges/grape/example/pagerank/PageRank
 
   # compatible graph spec:
   graph_etype:

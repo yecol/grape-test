@@ -5,7 +5,7 @@ app: # Application specification
   name: wcc
   so_location: $GRAPE_LIB/libapp_java_driver.so
   classpath: $GRAPE_LIB/grape-java-0.1.jar
-  mainclass: io/sevenbridges/grape/example/wcc/wcc
+  mainclass: io/sevenbridges/grape/example/wcc/WCC
 
   # compatible graph spec:
   graph_etype:
