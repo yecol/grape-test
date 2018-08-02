@@ -8,8 +8,13 @@ app: # Application specification
     - string
   name: pagerank
   so_location: $GRAPE_LIB/libapp_java_driver.so
-  classpath: $GRAPE_LIB/grape-java-0.1.jar
-  mainclass: io/sevenbridges/grape/example/pagerank/PageRank
+  java_app_mainclass: io/sevenbridges/grape/example/pagerank/PageRank
+  java_vm_params:
+    - -Djava.compiler=NONE
+    - -Djava.class.path=.:$GRAPE_LIB/grape-java-0.1.jar:$HOME/
+    - -Djava.library.path=.:$HOME
+    - -Xmx4096m
+    - -Xms4096m
 
   # compatible graph spec:
   graph_etype:
