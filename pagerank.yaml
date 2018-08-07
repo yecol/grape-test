@@ -26,6 +26,7 @@ app: # Application specification
   message_type: pair
   result_prefix: .
 
+  enable_coordinator_msg_process: true
   enable_coordinator_aggregation: false
   enable_assemble: false
   enable_result_output: true
