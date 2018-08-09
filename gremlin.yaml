@@ -1,0 +1,31 @@
+---
+app: # Application specification
+  # checkout parameter
+  param:
+    - string
+  name: gremlin
+  so_location: $GRAPE_LIB/libapp_gremlin.so
+
+  # compatible graph spec:
+  graph_etype:
+    - double
+    - float
+  graph_vtype:
+    - double
+    - float
+    - int
+  graph_type:
+    - immutable_edgecut
+  graph_load_strategy:
+    - both_out_in
+
+  message_strategy: sync_on_out_vertex
+  message_type: pair
+  result_prefix: .
+
+  enable_coordinator_aggregation: false
+  enable_assemble: true
+  enable_result_output: true
+  enable_auto: false
+
+  query_type: string
