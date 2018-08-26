@@ -1,6 +1,6 @@
 tter-vf2 = loadgraph("$GRAPE_TEST/twitter-vf2.yaml")
 vf2 = loadapp("$GRAPE_TEST/vf2.yaml")
-vf2.query(Graph("$GRAPE_TEST/vf2-query.graph"), "im")
+vf2.query(Graph("$GRAPE_TEST/vf2-query.graph") 4, "im")
 unloadapp(vf2)
 unloadgraph(twitter-vf2)
 exit
