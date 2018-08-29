@@ -1,0 +1,38 @@
+---
+app: # Application specification
+  param:
+    - string
+  name: wcc_auto
+  so_location: $GRAPE_LIB/libapp_java_driver.so
+  java_app_mainclass: io/sevenbridges/grape/example/wcc/WCCAuto
+  java_vm_params:
+    - -Djava.compiler=NONE
+    - -Djava.class.path=.:$GRAPE_LIB/grape-java-0.1.jar:$HOME/
+    - -Djava.library.path=.:$HOME
+    - -Xmx4096m
+    - -Xms4096m
+  
+  # compatible graph spec:
+  graph_etype:
+    - double
+    - float
+  graph_vtype:
+    - double
+    - float
+  graph_type:
+    - immutable_edgecut
+    # - mutable
+  graph_load_strategy:
+    - both_out_in
+
+  message_strategy: sync_on_out_vertex
+  message_type: pair
+  result_prefix: .
+
+  is_java_app: true
+  enable_coordinator_aggregation: false
+  enable_assemble: false
+  enable_result_output: true
+  enable_auto: true
+
+  query_type: string
