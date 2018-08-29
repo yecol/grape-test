@@ -1,0 +1,13 @@
+---
+graph: # Graph specification
+  nfrag: 4
+  type: immutable_edgecut
+  etype: double
+  vtype: int
+  load_strategy: both_out_in
+  partition_strategy: prepartitioned
+  file_format: evrfiles
+  rfile: $GRAPE_TEST/ml-100k.r
+  efile: $GRAPE_TEST/ml-100k-train.e
+  vfile: $GRAPE_TEST/ml-100k.v
+  serialization_prefix: ./movielen_serialization
