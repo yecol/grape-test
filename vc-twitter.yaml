@@ -4,13 +4,9 @@ graph: # Graph specification
   type: immutable_vertexcut
   etype: double
   vtype: double
-  # load_strategy: master_mirror
-  load_strategy: only_out 
-  # partition_strategy: dbh
-  # file_format: dadjrfiles
+  load_strategy: master_mirror
   file_format: vcfile
   rfile: $GRAPE_TEST/twitter.r
-  # efile: $GRAPE_TEST/twitter.ve
   efile: $GRAPE_TEST/twitter.e
   vfile: $GRAPE_TEST/twitter.v
   serialization_prefix: ./twitter_serialization
