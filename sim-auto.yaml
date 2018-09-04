@@ -2,7 +2,7 @@
 app: # Application specification
   # checkout parameter
   param:
-    - string
+    - graph
   name: sim_auto
   so_location: $GRAPE_LIB/libapp_sim_auto.so
 
