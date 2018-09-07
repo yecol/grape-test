@@ -3,7 +3,6 @@ app: # Application specification
   # checkout parameter
   param:
     - graph
-    - string
   name: vf2
   so_location: $GRAPE_LIB/libapp_vf2.so
 
