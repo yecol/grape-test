@@ -1,0 +1,13 @@
+---
+graph: # Graph specification
+  nfrag: 4
+  type: immutable_edgecut
+  etype: double
+  vtype: double
+  load_strategy: both_out_in
+  partition_strategy: prepartitioned
+  file_format: evrfiles
+  rfile: $GRAPE_TEST/twitter-pagerank-igraph.r
+  efile: $GRAPE_TEST/twitter.e
+  vfile: $GRAPE_TEST/twitter-pagerank-igraph.v
+  serialization_prefix: ./twitter_serialization
