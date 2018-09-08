@@ -1,5 +1,0 @@
-twitter = loadgraph("./com-friendster.yaml")
-sssp = loadapp("./ec-sssp.yaml")
-sssp.query(5506215, "im")
-unloadapp(sssp)
-unloadgraph(twitter)

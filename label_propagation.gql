@@ -1,6 +1,0 @@
-lp_twitter = loadgraph("$GRAPE_TEST/twitter.yaml")
-lp = loadapp("$GRAPE_TEST/label_propagation.yaml")
-lp.query(100, "im")
-unloadapp(lp)
-unloadgraph(lp_twitter)
-exit

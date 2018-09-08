@@ -1,6 +1,0 @@
-p2p = loadgraph("$GRAPE_TEST/p2p-31.yaml")
-wcc = loadapp("$GRAPE_TEST/wcc.yaml")
-wcc.query(1, "im")
-unloadapp(wcc)
-unloadgraph(p2p)
-exit

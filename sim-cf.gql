@@ -1,5 +1,0 @@
-com-friendster = loadgraph("./sim-com-friendster.yaml")
-sim = loadapp("./grape-test/sim.yaml")
-sim.query(Graph("./ptn-6-5"), "im")
-unloadapp(sim)
-unloadgraph(com-friendster)
