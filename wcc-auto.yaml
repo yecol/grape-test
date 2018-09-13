@@ -1,7 +1,5 @@
 ---
 app: # Application specification
-  param:
-    - string
   name: wcc_auto
   so_location: $GRAPE_LIB/libapp_wcc_auto.so
 
@@ -27,4 +25,5 @@ app: # Application specification
   enable_result_output: true
   enable_auto: true
 
-  query_type: string
+  param:
+    - string

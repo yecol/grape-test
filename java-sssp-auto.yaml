@@ -1,8 +1,5 @@
 ---
 app: # Application specification
-  # checkout parameter
-  param:
-    - string
   name: sssp-auto
   so_location: $GRAPE_LIB/libapp_java_driver.so
   java_app_mainclass: io/sevenbridges/grape/example/sssp/SSSPAuto
@@ -38,4 +35,5 @@ app: # Application specification
   enable_result_output: true
   enable_auto: true
 
-  query_type: string
+  param:
+    - string

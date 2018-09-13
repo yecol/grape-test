@@ -1,11 +1,5 @@
 ---
 app: # Application specification
-  # checkout parameter
-  param:
-    - string
-    - string
-    - string
-    - string
   name: pagerank
   so_location: $GRAPE_LIB/libapp_java_driver.so
   java_app_mainclass: io/sevenbridges/grape/example/pagerank/PageRank
@@ -39,4 +33,8 @@ app: # Application specification
   enable_result_output: true
   enable_auto: false
 
-  query_type: string
+  param:
+    - string
+    - string
+    - string
+    - string

@@ -1,7 +1,5 @@
 ---
 app: # Application specification
-  param:
-    - string
   name: wcc
   so_location: $GRAPE_LIB/libapp_java_driver.so
   java_app_mainclass: io/sevenbridges/grape/example/wcc/WCC
@@ -35,4 +33,5 @@ app: # Application specification
   enable_result_output: true
   enable_auto: false
 
-  query_type: string
+  param:
+    - string
