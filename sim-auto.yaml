@@ -1,8 +1,5 @@
 ---
 app: # Application specification
-  # checkout parameter
-  param:
-    - graph
   name: sim_auto
   so_location: $GRAPE_LIB/libapp_sim_auto.so
 
@@ -27,4 +24,5 @@ app: # Application specification
   enable_result_output: true
   enable_auto: true
 
-  query_type: string
+  param:
+    - graph

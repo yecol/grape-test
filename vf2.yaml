@@ -1,9 +1,5 @@
 ---
 app: # Application specification
-  # checkout parameter
-  param:
-    - graph
-    - string
   name: vf2
   so_location: $GRAPE_LIB/libapp_vf2.so
 
@@ -27,4 +23,6 @@ app: # Application specification
   enable_result_output: true
   enable_auto: false
 
-  query_type: string
+  param:
+    - graph
+    - string

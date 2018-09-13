@@ -1,8 +1,6 @@
 
 ---
 app: # Application specification
-  param:
-    - string
   name: vc_sssp_auto
   so_location: $GRAPE_LIB/libapp_vc_sssp_auto.so
 
@@ -29,4 +27,5 @@ app: # Application specification
   enable_result_output: true
   enable_auto: true
 
-  query_type: string
+  param:
+    - string

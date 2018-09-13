@@ -1,11 +1,5 @@
 ---
 app: # Application specification
-  # checkout parameter
-  param:
-    - string
-    - string
-    - string
-    - string
   name: pagerank
   so_location: $GRAPE_LIB/libapp_pagerank.so
 
@@ -32,4 +26,8 @@ app: # Application specification
   enable_result_output: true
   enable_auto: false
 
-  query_type: string
+  param:
+    - string
+    - string
+    - string
+    - string

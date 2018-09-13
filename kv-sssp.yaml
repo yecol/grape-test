@@ -1,8 +1,5 @@
 ---
 app: # Application specification
-  # checkout parameter
-  param:
-    - string
   name: sssp
   so_location: $GRAPE_LIB/libapp_kv_sssp.so
 
@@ -29,4 +26,5 @@ app: # Application specification
   enable_result_output: true
   enable_auto: false
 
-  query_type: string
+  param:
+    - string
