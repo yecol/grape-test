@@ -1,7 +1,7 @@
 ---
 graph: # Graph specification
   nfrag: 4
-  type: kv_edgecut
+  type: immutable_edgecut
   etype: double
   vtype: int
   load_strategy: both_out_in
